@@ -1,0 +1,48 @@
+body {
+    background-color: rgb(72, 85, 72);
+    color: white;
+    text-align: center;
+}
+
+div {
+    font-size: 20px;
+    margin: 20px;
+}
+
+.container {
+    text-align: center;
+}
+
+span {
+    background-color: pink;
+}
+
+input:read-only {
+    /* display: block; */
+    /* box-sizing: border-box; */
+    background-color: grey;
+    
+}
+
+.email > input {
+    display: block;
+    /* box-sizing: border-box; */
+    border-color: red;
+}
+
+:required {
+    /* background-color: violet; */
+}
+
+.submit-button {
+    color: white;
+    background-color: green;
+}
+
+.submit-button:hover {
+    background-color: darkgreen;
+}
+
+input[type="checkbox"]:checked + label {
+    color: blue;
+}
